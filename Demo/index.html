@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <section>
+
+        <div class="side-bar">
+            <a href="#" class="logo"> <img src="assets/images/Funnel.gif" alt=""></a>
+            <!-- <a href="#"><canvas id = "mycanvas"></canvas></a> -->
+            <a href="#" id="students" class="icons" onclick="addclass();"><img src="assets/images/user.png" alt=""><br><span>Sudents</span></a>
+            <a href="#" id="books" class="icons" onclick="addclass();"><img src="assets/images/book.png" alt=""><br><span>Lesson Plan</span></a>
+            <a href="#" id="settings" class="icons " onclick="addclass();"><img src="assets/images/setting.png" alt=""><br><span>Settings</span></a>
+        </div>
+    </section>
+    <section>
+        <div class="main-content">
+            <span><img src="assets/images/play.png" alt=""><h4>Videos</h4></span>
+            
+            <form action="">
+                <input type="text" placeholder="Insert URL here">
+                <br><br><br>
+                <p>Or</p>
+                <div class="upload-btn-wrapper">
+                    <button class="btn">Upload</button>
+                    <input type="file" name="myfile">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
